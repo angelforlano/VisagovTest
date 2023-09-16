@@ -56,7 +56,5 @@ class BookController extends Controller
         $libro->save();
 
         return redirect('/')->with('success', 'Libro creado exitosamente');
-    }
-
-    
+    }   
 }
