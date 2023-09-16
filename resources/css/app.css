@@ -1,0 +1,7 @@
+.tab-content-custom > .tab-pane {
+    display: none;
+}
+
+.tab-content-custom > .tab-pane.active {
+    display: block;
+}
